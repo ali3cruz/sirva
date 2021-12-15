@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*empieza presentacion pagina*/
+.cajaPresentacion{
+    background-size: cover;
+    background-image: url(images/fondo1.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    height: 100vh;
+    padding: 8vh;
+    overflow: hidden;
+}
+
+
+.logo{
+    display: flex;
+    position: relative;
+    top: 8vh;
+    left: 62vh;
+    z-index: 1;
+    height: 53vh;
+}
+
+.boton{
+    border: none;
+    background: none;
+}
+
+.flecha{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 35vh;
+    left: 23vh;
+
+
+}
+/*termina presentacion pagina*/
+
+/*empieza galeria*/
+.galeria{
+    padding: 4vh;
+    background-color: transparent;
+}
+
+#galeria img:hover{
+    border: 1vh solid rgb(240, 240, 240);
+
+}
+.text-center{
+    font-size: 7vh;
+}
+
+
+
+
+/*termina galeria*/
+
+/*empieza sobre Mi*/
+.sobreMi1{
+    min-height: 400px;
+    background-color: rgb(54, 175, 155);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-image: url(images/fondomi1.png);
+    background-repeat: no-repeat;
+    
+}
+
+.sobreMi2{
+    background-size: cover;
+    float: right;
+    padding: 5vh;
+    min-height: 400px;
+    background-color: transparent;
+    background-image: url(images/fondomi2.jpg) ;
+    background-repeat: no-repeat;
+
+}
+
+img.fotoyo{
+    height: 10vh;
+}
+
+h1.titulo{
+    margin-left: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 2em;
+    color: Black;
+}
+p.texto{
+    margin:20px;
+    font-size: 1.1em;
+    color: black;
+    line-height: 38px;
+}
+
+li.texto{
+    margin:20px;
+    line-height: 5px;
+    color: black;
+    font-size: 20px;
+   
+}
+
+h1.textohabilidades{
+    margin-left: 18px;
+}
+.textolista{
+    font-size: 1em;
+
+
+}
+/*termina sobre Mi*/
+
+
+
+
+/*empieza caja de contacto*/
+.cajacontacto1{
+    background-size: cover;
+    background-color: rgb(234, 249, 247);
+    background-image: url(images/fondocontacto.png);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    height: 90vh;
+    padding: 8vh;
+    
+}
+
+
+.cajacontacto{
+    background-size: cover;
+    background-color: rgb(234, 249, 247);
+    background-image: ;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    height: 90vh;
+    padding: 8vh;
+    
+}
+.textocontactame{
+    font-size: 9vh;
+}
+.textocontactame2{
+    font-size: 5vh;
+
+    
+}
+.imagentelefono{
+    display: flex;
+    position: relative;
+    height: 30vh;
+    top: 30vh;
+    left: -40vh;
+
+}
+
+form{
+    position: relative;
+    top: 20vh;
+    left: 10vh;
+    
+}
+/*termina caja de contacto*/
+
+
+/*empieza footer*/
+.cajaFooter{
+    background-color: rgb(240, 240, 240);
+    height: 34vh;
+    padding: 4vh;
+    text-align: center;
+
+}
+
+.textofooter{
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+.textofooter2{
+    font-size: 15px;
+    text-align: center;
+    
+}
+/*termina footer*/
+
+
+
+
+

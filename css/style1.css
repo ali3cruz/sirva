@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*empieza presentacion pagina*/
+.cajaPresentacion{
+    background-size: cover;
+    background-image: url(images/fondo1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    height: 90vh;
+    padding: 8vh;
+}
+
+.logo{
+    display: flex;
+    position: relative;
+    top: 8vh;
+    left: 58vh;
+    z-index: 1;
+    height: 58vh;
+} 
+.botoninicio{
+    border: none;
+    background: none;
+}
+
+.flecha{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 35vh;
+    left: 15vh;
+
+}
+/*termina presentacion pagina*/
+
+/*empieza galeria*/
+.container{
+    padding: 4vh;
+    background-image: url("");
+}
+
+#galeria img:hover{
+    border: 1vh solid transparent;
+
+}
+/*termina galeria*/
+
+/*empieza sobre Mi*/
+.sobreMi1{
+    background-color: gray;
+}
+.sobreMi2{
+    background-color: lightgray;
+}
+/*termina sobre Mi*/
+
+
+
+
+/*empieza caja de contacto*/
+.cajacontacto{
+    background-size: cover;
+    background-color: rgb(234, 249, 247);
+    background-image: url(fondocontacto.png);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    height: 90vh;
+    padding: 8vh;
+    
+}
+.textocontactame{
+    font-size: 9vh;
+}
+.imagentelefono{
+    display: flex;
+    position: relative;
+    height: 30vh;
+    top: 30vh;
+    left: -40vh;
+
+}
+
+form{
+    position: relative;
+    top: 20vh;
+    left: -5vh;
+    
+}
+/*termina caja de contacto*/
+
+
+/*empieza footer*/
+.cajaFooter{
+    background-color: rgb(240, 240, 240);
+    height: 25vh;
+    padding: 4vh;
+
+}
+
+.textofooter{
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+.textofooter2{
+    font-size: 15px;
+    text-align: center;
+    
+}
+/*termina footer*/
+
+
+
+
+

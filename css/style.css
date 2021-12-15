@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*empieza mapa de navegacion*/
+nav{
+	background-color: rgb(240, 240, 240);
+}
+
+.caja1{
+    display: flex;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja2{
+    display: flex;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja3{
+    display: flex;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja4{
+    display: flex;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja5{
+    display: flex;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja6{
+    display: flex;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+/*empieza presentacion de la pagina*/
+header{
+}
+
+
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 90vh; 
+    width: 200vh;
+    
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 18vh;
+    left: 69vh;
+    z-index: 1;
+
+}
+.flecha{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 18vh;
+    left: 98vh;
+    z-index: 1; 
+
+    
+}
+.caja{
+    background-color: gray;
+    height: 100vh;
+}
+/*termina presentacion de la pagina*/
+
+
+/*empieza galeria*/
+
+
+/*termina galeria*/
+
+/*caja de contacto*/
+.cajacontacto{
+    background-color: rgb(234, 249, 247);
+
+}
+.fondocontacto{
+    display: flex;
+    width: 20vh;
+    z-index: -1;
+
+}
+.texto-encima{
+    display: flex;
+    position: relative;
+    top: -85vh;
+    left: 10vh;
+    font-size: 9vh;
+}
+.imagentelefono{
+    display: flex;
+    position: relative;
+    top: -70vh;
+    left: 20vh;
+    z-index: 1;
+    
+}
+
+form{
+
+  position: relative;
+  top: -700px;
+  left: 85vh;
+}
+
+
+
+
+
+/*footeer*/
+footer{
+
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    height: 25vh;
+    padding: 4vh;
+    text-align: center;
+
+   
+}
+.textofooter{
+    font-size: 20px;
+
+}
+.textofooter2{
+    font-size: 15px;
+    
+}
